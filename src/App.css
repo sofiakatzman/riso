@@ -5,3 +5,21 @@
   /* text-align: center; */
 }
 
+.main{
+  display: flex;
+  gap: 8px;
+}
+
+.riso-container {
+  position: relative;
+  width: 330px; 
+  height: 330px; 
+  padding: 20px;
+  border: 1px solid black;
+
+}
+
+.riso-layer {
+  position: absolute;
+  mix-blend-mode: multiply;
+}
