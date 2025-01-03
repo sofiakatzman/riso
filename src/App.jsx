@@ -8,12 +8,14 @@ import RISO3 from './risographs/RISO3'
 function App() {
 
   return (
-    <div className="main">
-      <Risograph data={RISO1} />
-      <Risograph data={RISO2} />
-      <Risograph data={RISO3} />
-
-    </div>
+    <>
+      <div className="main">
+        <Risograph data={RISO1} />
+        <Risograph data={RISO2} />
+        <Risograph data={RISO3} />
+      </div>
+      <p>refresh to restamp the page</p>
+    </>
   )
 }
 
