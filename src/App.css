@@ -22,4 +22,5 @@
 .riso-layer {
   position: absolute;
   mix-blend-mode: multiply;
+  opacity: .90;
 }
